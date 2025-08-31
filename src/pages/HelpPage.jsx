@@ -14,39 +14,88 @@ const HelpPage = ({ currentLang }) => {
   ];
 
   const ngos = [
-    {
-      name: "Women's Rights Foundation",
-      servicesEn: "Legal Aid, Counseling",
-      servicesHi: "कानूनी सहायता, परामर्श",
-      locationEn: "Delhi, Mumbai, Bangalore",
-      locationHi: "दिल्ली, मुंबई, बैंगलोर",
-      phone: "+91 XXXXXX1234"
-    },
-    {
-      name: "SafeWork India",
-      servicesEn: "Workplace Safety, Legal Aid",
-      servicesHi: "कार्यस्थल सुरक्षा, कानूनी सहायता",
-      locationEn: "Delhi NCR",
-      locationHi: "दिल्ली एनसीआर",
-      phone: "+91 XXXXXX5678"
-    },
-    {
-      name: "Women's Health & Safety Initiative",
-      servicesEn: "Counseling, Emergency Support",
-      servicesHi: "परामर्श, आपातकालीन सहायता",
-      locationEn: "Mumbai, Pune",
-      locationHi: "मुंबई, पुणे",
-      phone: "+91 XXXXXX9012"
-    },
-    {
-      name: "Legal Empowerment Society",
-      servicesEn: "Legal Aid, Education",
-      servicesHi: "कानूनी सहायता, शिक्षा",
-      locationEn: "All India",
-      locationHi: "पूरे भारत में",
-      phone: "+91 XXXXXX3456"
-    }
-  ];
+  {
+    name: "Snehalaya",
+    servicesEn: "Women's shelter, Education, Healthcare, Awareness",
+    servicesHi: "महिला आश्रय, शिक्षा, स्वास्थ्य सेवा, जागरूकता",
+    locationEn: "Maharashtra",
+    locationHi: "महाराष्ट्र",
+    phone: "+91 XXXXXX1001"
+  },
+  {
+    name: "Majlis Manch",
+    servicesEn: "Legal Aid, Counseling, Women's Rights Awareness",
+    servicesHi: "कानूनी सहायता, परामर्श, महिला अधिकार जागरूकता",
+    locationEn: "Mumbai, Maharashtra",
+    locationHi: "मुंबई, महाराष्ट्र",
+    phone: "+91 XXXXXX1002"
+  },
+  {
+    name: "The Baale Mane",
+    servicesEn: "Shelter for girls, Education, Life-skills training",
+    servicesHi: "लड़कियों के लिए आश्रय, शिक्षा, जीवन-कौशल प्रशिक्षण",
+    locationEn: "Bangalore, Karnataka",
+    locationHi: "बैंगलोर, कर्नाटक",
+    phone: "+91 XXXXXX1003"
+  },
+  {
+    name: "Aarti for Girls",
+    servicesEn: "Girls' shelter, Education, Women's Leadership Training",
+    servicesHi: "लड़कियों का आश्रय, शिक्षा, महिला नेतृत्व प्रशिक्षण",
+    locationEn: "Kadapa, Andhra Pradesh",
+    locationHi: "कडपा, आंध्र प्रदेश",
+    phone: "+91 XXXXXX1004"
+  },
+  {
+    name: "My Choices Foundation",
+    servicesEn: "Domestic Violence Support, Anti-Trafficking, Counseling",
+    servicesHi: "घरेलू हिंसा सहायता, मानव तस्करी विरोध, परामर्श",
+    locationEn: "Hyderabad, Telangana",
+    locationHi: "हैदराबाद, तेलंगाना",
+    phone: "+91 XXXXXX1005"
+  },
+  {
+    name: "The Prajnya Trust",
+    servicesEn: "Gender Sensitisation, Workshops, Community Engagement",
+    servicesHi: "लैंगिक संवेदनशीलता, कार्यशालाएं, सामुदायिक भागीदारी",
+    locationEn: "Chennai, Tamil Nadu",
+    locationHi: "चेन्नई, तमिलनाडु",
+    phone: "+91 XXXXXX1006"
+  },
+  {
+    name: "Snehi",
+    servicesEn: "Counseling, Helplines, Mental Health Awareness",
+    servicesHi: "परामर्श, हेल्पलाइन, मानसिक स्वास्थ्य जागरूकता",
+    locationEn: "Delhi",
+    locationHi: "दिल्ली",
+    phone: "+91 XXXXXX1007"
+  },
+  {
+    name: "Shakti Shalini",
+    servicesEn: "Crisis Intervention, Shelters, Vocational Training",
+    servicesHi: "संकट हस्तक्षेप, आश्रय, व्यावसायिक प्रशिक्षण",
+    locationEn: "Delhi",
+    locationHi: "दिल्ली",
+    phone: "+91 XXXXXX1008"
+  },
+  {
+    name: "Apne Aap Women's Collective",
+    servicesEn: "Safe Spaces, Healthcare, Education, Vocational Training",
+    servicesHi: "सुरक्षित स्थान, स्वास्थ्य सेवा, शिक्षा, व्यावसायिक प्रशिक्षण",
+    locationEn: "Mumbai, Maharashtra",
+    locationHi: "मुंबई, महाराष्ट्र",
+    phone: "+91 XXXXXX1009"
+  },
+  {
+    name: "Jagori",
+    servicesEn: "Women's Rights Awareness, Gender Equality, Legal Support",
+    servicesHi: "महिला अधिकार जागरूकता, लैंगिक समानता, कानूनी सहायता",
+    locationEn: "Delhi",
+    locationHi: "दिल्ली",
+    phone: "+91 XXXXXX1010"
+  }
+];
+
 
   return (
     <div className="animate-fadeIn">
