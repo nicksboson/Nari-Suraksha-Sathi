@@ -36,12 +36,10 @@ No real reports are sent, and all NGO contact details are dummy data.
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – structure  
-- **CSS3 (Flexbox/Grid + media queries)** – responsive design  
-- **JavaScript (ES6)** – form handling, language toggle, dynamic NGO directory  
+- **ReactJS** – structure  
+- **TailwindCSS (Flexbox/Grid + media queries)** – responsive design  
+- **JSX** – form handling, language toggle, dynamic NGO directory  
 - **VS Code + Live Server** – development  
 
----
 
-## 📂 Project Structure
 
