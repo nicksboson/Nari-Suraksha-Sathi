@@ -1,12 +1,47 @@
-# React + Vite
+# 🌸 Nari Suraksha Saathi (Women's Safety Companion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nari Suraksha Saathi** is a simple, mobile-first prototype web app designed to empower women in India’s informal sector by:
+- Simulating a **discreet harassment reporting** mechanism.  
+- Providing **simplified POSH Act & labor rights information**.  
+- Listing a **static directory of NGOs & legal aid resources**.  
+- Offering **safety tips** in easy-to-read format.  
 
-Currently, two official plugins are available:
+⚠️ **Disclaimer:** This is an MVP prototype built for demonstration purposes only.  
+No real reports are sent, and all NGO contact details are dummy data.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Discreet Reporting (Prototype Only)**  
+  - Multi-step form to report incident type, description, location, and anonymity preference.  
+  - Data is shown locally (not stored or sent anywhere).  
+
+- **My Rights (Simplified Legal Info)**  
+  - Easy explanations of the **POSH Act** & basic labor rights.  
+  - Language toggle: **English ↔ हिंदी**.  
+
+- **NGO & Legal Aid Directory**  
+  - Hardcoded list of NGOs with dummy contact info.  
+  - Buttons to simulate **Call Now** or **WhatsApp Connect**.  
+
+- **Safety Tips**  
+  - Pre-written tips for informal workers to stay safe at work.  
+
+- **Mobile-First & Lightweight**  
+  - Fully front-end (HTML, CSS, JS).  
+  - No backend, no databases, no third-party APIs.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – structure  
+- **CSS3 (Flexbox/Grid + media queries)** – responsive design  
+- **JavaScript (ES6)** – form handling, language toggle, dynamic NGO directory  
+- **VS Code + Live Server** – development  
+
+---
+
+## 📂 Project Structure
+
