@@ -95,7 +95,6 @@ const HelpPage = ({ currentLang }) => {
       phone: "+91 XXXXXX1010"
     }
   ];
-  
 
   return (
     <div className="animate-fadeIn">
