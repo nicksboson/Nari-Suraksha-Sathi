@@ -1,4 +1,3 @@
-// components/Header.js
 import React from 'react';
 
 const Header = ({ currentLang, setCurrentLang }) => {
@@ -14,15 +13,23 @@ const Header = ({ currentLang, setCurrentLang }) => {
           </div>
         </div>
       </div>
-      <div className="absolute top-3 right-4 bg-white bg-opacity-20 rounded-full p-1 flex">
-        <button 
-          className={`px-2 py-1 rounded-full text-xs ${currentLang === 'en' ? 'bg-white text-purple-700' : 'bg-transparent text-white'}`}
+      <div className="absolute top-3 right-4 bg-white bg-opacity-30 rounded-full px-2 py-1 flex gap-1 shadow-lg border border-purple-100">
+        <button
+          className={`px-4 py-1 rounded-full text-sm font-medium transition-colors duration-200 outline-none focus:ring-2 focus:ring-purple-400 ${
+            currentLang === 'en'
+              ? 'bg-purple-700 text-white shadow'
+              : 'bg-transparent text-purple-700 hover:bg-purple-100'
+          }`}
           onClick={() => setCurrentLang('en')}
         >
           EN
         </button>
-        <button 
-          className={`px-2 py-1 rounded-full text-xs ${currentLang === 'hi' ? 'bg-white text-purple-700' : 'bg-transparent text-white'}`}
+        <button
+          className={`px-4 py-1 rounded-full text-sm font-medium transition-colors duration-200 outline-none focus:ring-2 focus:ring-purple-400 ${
+            currentLang === 'hi'
+              ? 'bg-purple-700 text-white shadow'
+              : 'bg-transparent text-purple-700 hover:bg-purple-100'
+          }`}
           onClick={() => setCurrentLang('hi')}
         >
           HI

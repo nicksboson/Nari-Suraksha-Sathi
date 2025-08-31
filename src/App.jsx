@@ -15,7 +15,7 @@ function App() {
 
   const renderPage = () => {
     switch(currentPage) {
-      case 'home': return <HomePage currentLang={currentLang} />;
+      case 'home':  return <HomePage currentLang={currentLang} setCurrentPage={setCurrentPage} />;
       case 'report': return <ReportPage currentLang={currentLang} />;
       case 'thankyou': return <ThankYouPage currentLang={currentLang} setCurrentPage={setCurrentPage} />;
       case 'rights': return <RightsPage currentLang={currentLang} />;
@@ -31,7 +31,12 @@ function App() {
       <main className="container mx-auto px-4 py-5">
         {renderPage()}
       </main>
-      <BottomNav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      // In App.js, update the BottomNav usage:
+<BottomNav 
+  currentPage={currentPage} 
+  setCurrentPage={setCurrentPage} 
+  currentLang={currentLang} 
+/>
     </div>
   );
 }

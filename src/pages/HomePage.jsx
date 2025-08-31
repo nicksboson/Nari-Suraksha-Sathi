@@ -2,13 +2,17 @@
 import React from 'react';
 import QuickActionCard from '../components/QuickActionCard';
 
-const HomePage = ({ currentLang }) => {
+const HomePage = ({ currentLang, setCurrentPage }) => {
   const quickActions = [
     { id: 'report', icon: 'exclamation-circle', labelEn: 'Report Incident', labelHi: 'घटना की रिपोर्ट करें' },
     { id: 'rights', icon: 'scale-balanced', labelEn: 'Know Your Rights', labelHi: 'अपने अधिकारों को जानें' },
     { id: 'help', icon: 'hands-helping', labelEn: 'Find Help', labelHi: 'सहायता खोजें' },
     { id: 'safety', icon: 'first-aid', labelEn: 'Safety Tips', labelHi: 'सुरक्षा युक्तियाँ' },
   ];
+
+  const handleCardClick = (pageId) => {
+    setCurrentPage(pageId);
+  };
 
   return (
     <div className="animate-fadeIn">
@@ -40,6 +44,7 @@ const HomePage = ({ currentLang }) => {
             id={action.id}
             icon={action.icon}
             label={currentLang === 'en' ? action.labelEn : action.labelHi}
+            onClick={handleCardClick}
           />
         ))}
       </div>
